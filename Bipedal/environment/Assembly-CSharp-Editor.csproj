@@ -67,16 +67,16 @@
     <Compile Include="Assets\ML-Agents\Editor\Tests\EditModeTestActionMasker.cs" />
     <Compile Include="Assets\ML-Agents\Editor\Tests\MLAgentsEditModeTest.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -328,13 +328,13 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/nakaiyuu/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

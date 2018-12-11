@@ -111,8 +111,8 @@
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisArea.cs" />
-    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\WalkerAcademy.cs" />
-    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\WalkerAgent.cs" />
+    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\HumanAcademy.cs" />
+    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\HumanAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpAgent.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\Academy.cs" />
@@ -153,20 +153,20 @@
     <Compile Include="Assets\ML-Agents\Scripts\SocketCommunicator.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\UnityAgentsException.cs" />
     <Compile Include="Assets\scripts\HumanAcademy.cs" />
-    <Compile Include="Assets\scripts\HumanAgent.cs" />
+    <Compile Include="Assets\scripts\HumanAgent1.cs" />
     <Compile Include="Assets\scripts\MainCamera.cs" />
     <Compile Include="Assets\TestScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -373,13 +373,13 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>/Users/nakaiyuu/RL-Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>/Users/nakaiyuu/Desktop/CrazyPhysist/Bipedal/environment/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/nakaiyuu/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
