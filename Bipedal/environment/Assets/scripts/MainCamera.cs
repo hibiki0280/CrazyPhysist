@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class MainCamera : MonoBehaviour {
 
-	private GameObject hip;
-	private float h;
+	public GameObject subject;
+    private float x;
+	private float z;
 
 	// Update is called once per frame
 	void Update () {
-		hip = GameObject.Find("hip");
-		if( hip == null){
-			h = 0;
-		}else{
-			h = hip.transform.position.z;
-		}
-		this.transform.position = new Vector3(10,3,6 + h);
-		this.transform.rotation = Quaternion.Euler(0, -120,0);
+        x = subject.transform.position.x;
+        z = subject.transform.position.z;
+        this.transform.position = new Vector3(30 +x,3,10 + z);
+		this.transform.rotation = Quaternion.Euler(0, 240,0);
 	}
 }

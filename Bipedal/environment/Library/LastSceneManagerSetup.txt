@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ML-Agents/Examples/Walker/Scenes/Walker.unity
+- path: Assets/Scenes/RL-Scene.unity
   isLoaded: 1
   isActive: 1
