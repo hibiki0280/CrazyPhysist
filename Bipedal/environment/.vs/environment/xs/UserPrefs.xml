@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{6E6C848D-89FB-9B7F-CE7A-669E4BA237FB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/MainCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/HumanAgent.cs">
     <Files>
-      <File FileName="Assets/ML-Agents/Examples/Walker/Scripts/HumanAgent.cs" Line="28" Column="6" />
+      <File FileName="Assets/scripts/HumanAgent.cs" Line="123" Column="31" />
       <File FileName="Assets/scripts/HumanAgent1.cs" Line="11" Column="35" />
-      <File FileName="Assets/ML-Agents/Examples/Walker/Scripts/HumanAcademy.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/MainCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/HumanAcademy.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MainCamera.cs" Line="13" Column="20" />
+      <File FileName="Assets/scripts/HumanAgent.cs" Line="146" Column="36" />
+      <File FileName="Assets/scripts/HumanAcademy.cs" Line="1" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

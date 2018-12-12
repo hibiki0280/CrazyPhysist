@@ -27,16 +27,23 @@ public class HumanAgent : Agent
     public override void InitializeAgent()
     {
         jdController = GetComponent<JointDriveController>();
-        jdController.SetupBodyPart(head);
-        jdController.SetupBodyPart(chest);
-        jdController.SetupBodyPart(spine);
-        jdController.SetupBodyPart(hip);
-        jdController.SetupBodyPart(leftthigh);
-        jdController.SetupBodyPart(leftshin);
-        jdController.SetupBodyPart(leftfoot);
-        jdController.SetupBodyPart(rightthigh);
-        jdController.SetupBodyPart(rightshin);
-        jdController.SetupBodyPart(rightfoot);
+        jdController.SetupBodyPart(head); // 10
+        jdController.SetupBodyPart(chest); // 14
+        jdController.SetupBodyPart(spine); // 14
+        jdController.SetupBodyPart(hip); // 10
+        jdController.SetupBodyPart(leftthigh); // 14
+        jdController.SetupBodyPart(leftshin); // 14
+        jdController.SetupBodyPart(leftfoot); // 10
+        jdController.SetupBodyPart(rightthigh); // 14
+        jdController.SetupBodyPart(rightshin); // 14
+        jdController.SetupBodyPart(rightfoot); // 10
+        // right upper arm // 14
+        // right lower arm // 14
+        // right hand // 10
+        // left upper arm // 14
+        // left lower arm // 14
+        // left hand // 10
+        // 12
     }
 
     /// <summary>
@@ -45,18 +52,18 @@ public class HumanAgent : Agent
     public void CollectObservationBodyPart(BodyPart bp)
     {
         var rb = bp.rb;
-        AddVectorObs(bp.groundContact.touchingGround ? 1 : 0); // Is this bp touching the ground
-        AddVectorObs(rb.velocity);
-        AddVectorObs(rb.angularVelocity);
+        AddVectorObs(bp.groundContact.touchingGround ? 1 : 0); // 1
+        AddVectorObs(rb.velocity); // 3
+        AddVectorObs(rb.angularVelocity); // 3
         Vector3 localPosRelToHip = hip.InverseTransformPoint(rb.position);
-        AddVectorObs(localPosRelToHip);
+        AddVectorObs(localPosRelToHip); //3
 
         if (bp.rb.transform != hip && bp.rb.transform != leftfoot && bp.rb.transform != rightfoot && bp.rb.transform != head)
         {
-            AddVectorObs(bp.currentXNormalizedRot);
-            AddVectorObs(bp.currentYNormalizedRot);
-            AddVectorObs(bp.currentZNormalizedRot);
-            AddVectorObs(bp.currentStrength / jdController.maxJointForceLimit);
+            AddVectorObs(bp.currentXNormalizedRot); // 1
+            AddVectorObs(bp.currentYNormalizedRot); // 1
+            AddVectorObs(bp.currentZNormalizedRot); // 1
+            AddVectorObs(bp.currentStrength / jdController.maxJointForceLimit); // 1
         }
     }
 
@@ -67,10 +74,10 @@ public class HumanAgent : Agent
     {
         jdController.GetCurrentJointForces();
 
-        AddVectorObs(dirToTarget.normalized);
-        AddVectorObs(jdController.bodyPartsDict[hip].rb.position);
-        AddVectorObs(hip.forward);
-        AddVectorObs(hip.up);
+        AddVectorObs(dirToTarget.normalized); // 3
+        AddVectorObs(jdController.bodyPartsDict[hip].rb.position); // 3
+        AddVectorObs(hip.forward); // 3
+        AddVectorObs(hip.up); // 3
 
         foreach (var bodyPart in jdController.bodyPartsDict.Values)
         {
@@ -95,6 +102,12 @@ public class HumanAgent : Agent
             bpDict[rightshin].SetJointTargetRotation(vectorAction[++i], 0, 0);
             bpDict[rightfoot].SetJointTargetRotation(vectorAction[++i], vectorAction[++i], vectorAction[++i]);
             bpDict[leftfoot].SetJointTargetRotation(vectorAction[++i], vectorAction[++i], vectorAction[++i]);
+            // head // 2
+            // chest // 3
+            // right upper arm // 2
+            // right lower arm // 1
+            // left upper arm // 2
+            // left lower arm // 1
 
             //update joint strength settings
             bpDict[spine].SetJointStrength(vectorAction[++i]);
@@ -104,6 +117,12 @@ public class HumanAgent : Agent
             bpDict[rightthigh].SetJointStrength(vectorAction[++i]);
             bpDict[rightshin].SetJointStrength(vectorAction[++i]);
             bpDict[rightfoot].SetJointStrength(vectorAction[++i]);
+            // head
+            // chest
+            // right upper arm
+            // right lower arm
+            // left upper arm
+            // left lower arm
         }
 
         IncrementDecisionTimer();

@@ -111,8 +111,6 @@
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisArea.cs" />
-    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\HumanAcademy.cs" />
-    <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\HumanAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpAgent.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\Academy.cs" />
@@ -153,6 +151,7 @@
     <Compile Include="Assets\ML-Agents\Scripts\SocketCommunicator.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\UnityAgentsException.cs" />
     <Compile Include="Assets\scripts\HumanAcademy.cs" />
+    <Compile Include="Assets\scripts\HumanAgent.cs" />
     <Compile Include="Assets\scripts\HumanAgent1.cs" />
     <Compile Include="Assets\scripts\MainCamera.cs" />
     <Compile Include="Assets\TestScript.cs" />
